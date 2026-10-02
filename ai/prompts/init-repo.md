@@ -13,5 +13,5 @@ Consider this things:
 - i'd like that you keep documentation and agents files updated when this project changes, if you think it is needde create an apposite agent to do that
 - create a tmp folder that should be .gitignored in which we can add .md files with task description
 - when configuring agents create 2 files for agents: for example planner.md and planner-shared.md. planner.md contains the repo-specific information (if any), planner-shared.md contains all the informations that are not specific to a repository and that could be shared with other repositories. in planner.md create a link to the planner-shared.md. In the future planner-shared.md will be centralized in a helper repository.
-- prefer to pin dependencies to exact version and then bump up the version in package json
+- dependency versions (a rule for future changes, not a task to run now): when you add or bump a package, write the exact version in package.json (`1.2.3`, not `^1.2.3`). Do not mass-pin existing ranges unless asked.
 - configure this project to operate in "agentic loop mode"
