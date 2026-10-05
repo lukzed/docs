@@ -1,6 +1,6 @@
 Please read (or create if not exists) AGENTS.md files and check if you think is it ok for your needs to work on this project.
 Consider this things:
-- ask me whatever you think it is necessary to better understand this project and als related project, infrastructure, etc..
+- ask me whatever you think it is necessary to better understand this project and also related project, infrastructure, etc..
 - we ca have big task and small task so if you need create some agents you think are needed. Do not create agents speculatively
 - For big task a planner is needed because i'd like to read how he think to work on the task.
 - if you think it is better to work with test driven development (aka test-first) do it and use it as your standard way of work
